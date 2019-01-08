@@ -17,7 +17,7 @@ public class Anagram {
         desiredHashes.add("23170acc097c24edb98fc5488ab033fe");
         desiredHashes.add("665e5bcb0c20062fe8abaaf4628bb154");
         String anagram = "poultry outwits ants".replaceAll(" ", "");
-        
+
         MessageDigest MD5 = getMD5();
 
         File inputF = new File("wordlist");
